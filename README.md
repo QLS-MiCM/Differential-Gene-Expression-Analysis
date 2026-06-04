@@ -22,7 +22,10 @@ install.packages(c("hexbin", "pheatmap", "RColorBrewer", "ggplot2", "ggbeeswarm"
 ```
 
 ## Outline
-These are the notebooks we will cover during our workshop: 
+
+The code can be run in [Google Colab](https://colab.research.google.com/github/arielmadr/Differential-Gene-Expression-Analysis/blob/main/Exercises/scripts/Differential_Gene_Expression_Analysis.ipynb).
+
+Alternatively, you can also run locally. These are the notebooks we will cover during our workshop: 
 
 * [01 DESeq2](https://arielmadr.github.io/Differential-Gene-Expression-Analysis/Exercises/scripts/01_run_DESeq2.nb.html)
 * [02 GSEA and ORA](https://arielmadr.github.io/Differential-Gene-Expression-Analysis/Exercises/scripts/02_gsea_and_ora.nb.html)

@@ -144,7 +144,7 @@ Then, a results table can be generated. In this case, we provide a value in the 
 ## Log-Fold shrinkage
 Shrinkage of the log-fold changes estimates is recommended for visualization and ranking of genes. 
 ```{r}
-resLFC <- lfcShrink(dds, coef="ConditionCoV2", type="apeglm")
+resLFC <- lfcShrink(dds, coef="ConditionCoV2", type="ashr")
 ```
 The lfcShrink has various shrinkage methods, here we will use apeglm. Again, we look for the CoV2 effect model by setting up the coef argument in the lfcShrink function.
 
